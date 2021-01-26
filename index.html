@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo Shopping Cart</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="text-area">
+    <h1>Shopping Cart Demo</h1>
+  </div>
+  <div class="container">
+    <div class="items">
+      <div class="item-image">
+        <img
+          src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-pro-max-gold-hero?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1604021660000"
+          alt="">
+      </div>
+      <div class="item-name">
+        <h3>iPhone 12pro</h3>
+        <h4 class="item-one">Price : $1100</h4>
+      </div>
+      <div class="item-quantity">
+        <button id="decrement-one" class="decrement">
+          -
+        </button>
+        <input type="text" id="quantity-one" value="1">
+        <button id="increment-one" class="increment">
+          +
+        </button>
+      </div>
+      <div class="item-price">
+        <span>$1100</span>
+      </div>
+      <div class="item-remove">
+        <i class="fas fa-trash-alt"></i>
+      </div>
+
+
+    </div>
+
+    <div class="items">
+      <div class="item-image">
+        <img src="https://media.carphonewarehouse.com/is/image/cpw2/pixel-2-xlBLACK?$xl-standard$">
+      </div>
+      <div class="item-name">
+        <h3>Pixel 2 xl</h3>
+        <h4 class="item-two">Price : $800</h4>
+      </div>
+      <div class="item-quantity">
+        <button id="decrement-two" class="decrement">
+          -
+        </button>
+        <input type="text" id="quantity-two" value="1">
+        <button id="increment-two" class="increment">
+          +
+        </button>
+      </div>
+      <div class="item-price">
+        <span>$500</span>
+      </div>
+      <div class="item-remove">
+        <i class="fas fa-trash-alt"></i>
+      </div>
+
+
+    </div>
+
+    <div class="items-details-info">
+      <div class="item-details">
+        <span>Subtotal:</span>
+        <span>Tax:</span>
+        <span>Total:</span>
+      </div>
+      <div class="items-price">
+        <span class="subtotal">$0</span>
+        <span>$0</span>
+        <span class="total">$0</span>
+      </div>
+    </div>
+    <div class="btn">
+      <a>Check Out</a>
+    </div>
+
+  </div>
+
+
+  <!-- JS Script -->
+  <script src="app.js"></script>
+</body>
+
+</html>
