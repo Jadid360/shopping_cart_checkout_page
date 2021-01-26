@@ -74,3 +74,7 @@ decrementBtn.forEach((singleBtn) => {
     }
   });
 });
+const a = document.querySelector("a");
+a.addEventListener("click", (e) => {
+  alert("Now check your order");
+});

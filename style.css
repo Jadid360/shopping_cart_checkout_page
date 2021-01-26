@@ -1,9 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-:root{
-
-}
-
-
 *{
   margin: 0;
   padding: 0;
@@ -164,7 +159,9 @@ input{
   padding: 1rem 0;
 }
 /* button */
-
+.btn{
+  margin-top:1.5rem;
+}
 .btn a{
   margin-top: 1rem;
   padding: 1.5rem 2.3rem;
@@ -178,11 +175,11 @@ input{
   cursor: pointer;
   transition: all .2s linear;
 }
-.btn button:hover{
+.btn a:hover{
   box-shadow: 1px 2px 5px rgba(0,0,0,0.7);
   background-color: rgb(60, 172, 60);
 }
-.btn button:active{
+.btn a:active{
   box-shadow:inset 0 0px 1px rgba(0,0,0,0.6),
    inset -2px -4px 7px rgba(0,0,0,0.3) ;
   border-radius: 1rem;
